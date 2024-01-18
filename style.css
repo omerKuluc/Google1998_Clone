@@ -1,0 +1,71 @@
+/***********layout*********/
+/*header - start*/
+header {
+  text-align: center;
+}
+/* header-end*/
+
+/*,main - start*/
+main div {
+  background-color: #eee;
+  text-align: center;
+}
+main div p {
+  margin-bottom: 0;
+}
+/*main - end*/
+
+/* main and section - start */
+main,
+section {
+  width: 90%;
+  margin: 0px auto;
+}
+/* main and section - end */
+
+/* general box features - start */
+.box {
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  height: 90px;
+  padding: 5px;
+}
+/* general box features - end */
+
+.box p {
+  margin: 0px;
+}
+
+/* first box - start */
+.left-box {
+  width: 40%;
+  background-color: #7ee5da;
+  line-height: 20px;
+  padding-top: 10px;
+}
+/* first box - end*/
+
+/* second box - start */
+.middle-box {
+  width: 25%;
+  background-color: #70ccc2;
+}
+/* first box - end */
+
+/* third box - start */
+.right-box {
+  width: 35%;
+  background-color: #62b3aa;
+}
+/* third box - end */
+
+.clearfix {
+  clear: both;
+}
+
+/* footer start */
+footer p {
+  text-align: center;
+}
+/* footer end */
